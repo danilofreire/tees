@@ -52,7 +52,7 @@ options(htmltools.dir.version = FALSE)
 
 # Background
 
-.font140[
+.font130[
 * Hi, I'm Danilo!
 
 * PhD in Political Economy, King's College London
@@ -71,7 +71,7 @@ options(htmltools.dir.version = FALSE)
 
 # Public service provision
 
-.font140[
+.font130[
 * Motivating questions:
 	- How do we foster vertical accountability and sanction malfeasant officeholders?
 	- How can we increase bureaucratic performance and improve the quality of public services? 
@@ -84,7 +84,7 @@ options(htmltools.dir.version = FALSE)
 
 # Next steps
 
-.font140[
+.font130[
 * Evaluate the impact of horizontal accountability on healthcare outcomes
 	- Test the effect of an information-sharing app on public performance
 
@@ -157,7 +157,7 @@ options(htmltools.dir.version = FALSE)
 
 # Inference with observational data
 
-.font150[
+.font130[
 * Shortcomings of quantitative social science
 	- Explanation: lack of robustness in observational studies
 	- Prediction: reliance on black-box algorithms
@@ -211,7 +211,7 @@ class: inverse, center, middle
 
 # Contact information
 
-.font150[
+.font130[
 * Email: <danilofreire@brown.edu>
 
 * Website: <http://danilofreire.github.io>
