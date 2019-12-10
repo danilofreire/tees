@@ -1,0 +1,225 @@
+---
+title: Research Outline
+subtitle: Teesside University
+author: Danilo Freire 
+date: 13 December 2019
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      ratio: 4:3
+      highlightLines: true
+      countIncrementalSlides: true
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
+}
+</style>
+
+# Background
+
+.font140[
+* Hi, I'm Danilo!
+
+* PhD in Political Economy, King's College London
+
+* Postdoctoral Research Associate, Brown University
+
+* Research areas: 
+	- Public service provision
+	- Criminal and political violence
+	- Collective action problems
+	- Causal inference methods
+
+* One ongoing project for each research area
+]
+---
+
+# Public service provision
+
+.font140[
+* Motivating questions:
+	- How do we foster vertical accountability and sanction malfeasant officeholders?
+	- How can we increase bureaucratic performance and improve the quality of public services? 
+
+* Previous research:
+	- "Bottom-Up Accountability and Public Service Provision: Evidence from a Field Experiment in Brazil" (R&R _Research and Politics_)
+	- "Incentives in Preventive Healthcare Provision: Zika in Brazil" (writing stage)
+]
+---
+
+# Next steps
+
+.font140[
+* Evaluate the impact of horizontal accountability on healthcare outcomes
+	- Test the effect of an information-sharing app on public performance
+
+* Funding:
+	- Secured US$65,000 from the Brazilian Ministry of Education and the Getulio Vargas Foundation
+
+* Investigators:
+	- Danilo Freire (Brown) and Umberto Mignozzetti (NYU/FGV)
+]
+
+---
+
+# Dynamics of criminal violence
+
+.font130[
+* Motivating questions:
+	- How do criminals enforce rules and promote trade when the state is unable or unwilling to act?
+	- What is the effect of prison gang truces on homicide levels?
+
+* Previous research:
+	- "Evaluating the Effect of Homicide Prevention Strategies in São Paulo, Brazil: A Synthetic Control Approach" (LARR)
+	- "Beasts of Prey or Rational Animals?: Private Governance in Brazil's _Jogo do Bicho_" (LAPS)
+	- "Prison Gangs" (Handbook of US Corrections)
+]
+
+---
+
+# Next steps 
+
+.font130[
+* Describe under what conditions prison gangs establish alliances in new territories
+	- Collect survey data and create a new dataset of administrative records on the expansion of Brazil's two main prison gangs
+	- Evaluate the impact of their disputes and alliances on violent crime
+
+* Funding:
+	- Grant application at Brown University and the Brazilian Ministry of Education
+
+* Investigators:
+	- Danilo Freire (Brown) and David Skarbek (Brown)
+]
+---
+
+# Collective action in climate regimes
+
+.font130[
+* Motivating questions:
+	- How to promote international climate cooperation among players with heterogeneous preferences? 
+	- Which institutional features do elites favour for climate change policies?
+
+* Related research:
+	- "Institutional Design and Elite Support for Climate Policies: Evidence from Latin American Countries" (R&R _Journal of Experimental Political Science_)
+	- "Policy Report for the Konrad Adenauer Stiftung Latin American Programme for Energy Security and Climate" (EKLA-KAS)
+]
+---
+
+# Next steps
+
+.font130[
+* Measure preferences of the public on climate institutions in 10 Latin American countries
+
+* Extend the research to analyse elite opinions on stranded assets and renewables 
+
+* Funding:
+	- Secured US$ 130,000 from the Konrad Adenauer Stiftung and the Getulio Vargas Foundation (matching grant)
+
+* Investigators:
+	- Danilo Freire (Brown), Umberto Mignozzetti (NYU/FGV), David Skarbek (Brown), and Michael Aklin (UPitt)
+]
+---
+
+# Inference with observational data
+
+.font150[
+* Shortcomings of quantitative social science
+	- Explanation: lack of robustness in observational studies
+	- Prediction: reliance on black-box algorithms
+
+* Two main goals:
+	- Develop a new measure of sensitivity to assess omitted variable bias
+	- Introduce the literature on causal machine learning to the social science community and extend it to RDDs
+]
+---
+
+# Future work
+
+.font130[
+* "Using Sensitivity Analysis to Assess Omitted Variable Bias"
+	- Extend the methodology implemented by Cinelli & Hazlitt (2019)
+	- Generalise their methods to cover IV, RD, and DiD designs 
+
+* "Uncovering Causal Relations in Observational Data Using Machine Learning and Graphical Models"
+	- Present an overview of the recent advances in the causality algorithms with applications 
+	- Write free and easy-to-use software for quanti- and qualitative scholars
+
+* Investigators:
+	- Danilo Freire (Brown) and Carlos Cinelli (UCLA)
+]
+
+---
+
+# Research as Teesside University 
+
+.font130[
+* Multi-disciplinary partnerships at Teesside University:
+	- Public Health Research Centre/Healthcare Innovation Centre
+	- Centre for crime, Harm and Security
+	- Machine Intelligence Research Group
+
+* Partnerships abroad:
+	- Brown University, UCLA, Getulio Vargas Foundation, University of São Paulo
+
+* Funding:
+	- Apply to collective grants that benefit the university
+]
+---
+
+class: inverse, center, middle
+
+# Thank you very much!
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+
+---
+
+# Contact information
+
+.font150[
+* Email: <danilofreire@brown.edu>
+
+* Website: <http://danilofreire.github.io>
+
+* Postal Address:
+	- Brown University 
+	- The Political Theory Project
+	- 8 Fones Alley, office 114
+	- Providence, RI 02906, USA
+]
+
